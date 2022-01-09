@@ -8,46 +8,42 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="./img/images.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About us</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+    <header class="header">
+        <nav class="navbar">
+            <a class="link-items" href="#">Home</a>
+            <a class="link-items" href="#">About us</a>
+            <a class="link-items" href="#">Portfolio</a>
+            <a class="link-items" href="#">Services</a>
+            <a class="link-items" href="#">Contact</a>
         </nav>
         <section class="header-text">
-            <h1>Boost your sales to 1000</h1>
-            <h2>with the power of <strong>Ninja WEB</strong></h2>
+            <h1 class="principal-title">Boost your sales to 100%</h1>
+            <h2 class="principal-title2">with the power of <span class="ninja">Ninja WEB</span></h2>
         </section>
-        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
     </header>
     <main>
         <section class="container about-us">
             <h2 class="title">Our Products</h2>
             <div class="container-about-us">
-                <img src="./img/undraw_presentation_re_sxof.svg" alt="presentation" class="about-us">
+                <img src="./img/undraw_presentation_re_sxof.svg" alt="presentation" class="img-about-us">
                 <div class="container-text">
-                    <h3><span>1</span> The best products</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nemo rem fuga vero inventore itaque ab incidunt neque similique eaque nesciunt, sunt, optio quae quod sint porro dolorem, natus repellat.</p>
-                    <h3><span>2</span> The best products</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nemo rem fuga vero inventore itaque ab incidunt neque similique eaque nesciunt, sunt, optio quae quod sint porro dolorem, natus repellat.</p>
+                    <h3 class="subtitle-about-us"><span class="number">1</span> The best products</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nemo rem fuga vero inventore itaque ab incidunt neque similique eaque nesciunt, sunt, optio quae quod sint porro dolorem, natus repellat.</p>
+                    <h3 class="subtitle-about-us"><span class="number">2</span> Second best products</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eum consequuntur accusamus at laboriosam perferendis delectus dolorem atque quisquam facilis tempora nobis ratione voluptatum dicta eius expedita doloribus corrupti officiis assumenda ducimus accusantium a, modi est id. Optio amet error unde, labore, molestiae odit, vitae itaque numquam natus necessitatibus corrupti.</p>
                 </div>
             </div>
         </section>
         <section class="portfolio">
             <div class="container">
                 <h2 class="title">Portfolio</h2>
-                <div class="galeria-port">
-                    <div class="imagen-port">
-                        <img src="https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?cs=srgb&dl=pexels-cadeau-maestro-1170412.jpg&fm=jpg" alt="oficina">
-                        <div class="hover-gallery">
-                            <i class="fas fa-user-ninja"></i>
-                            <p>Our Job</p>
-                        </div>
-                    </div>
+                <div class="galery-port">
                     <div class="imagen-port">
                         <img src="https://images.pexels.com/photos/6180740/pexels-photo-6180740.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-6180740.jpg&fm=jpg" alt="oficina">
                         <div class="hover-gallery">
@@ -111,17 +107,18 @@
             <h2 class="title">What do our customers say</h2>
             <div class="cards">
                 <div class="card">
-                    <img src="https://images.pexels.com/photos/2741701/pexels-photo-2741701.jpeg?cs=srgb&dl=pexels-brandan-saviour-2741701.jpg&fm=jpg" alt="">
+                    <img class="face" src="https://images.pexels.com/photos/2741701/pexels-photo-2741701.jpeg?cs=srgb&dl=pexels-brandan-saviour-2741701.jpg&fm=jpg" alt="">
                     <div class="container-text-card">
-                        <h4>Name</h4>
+                        <h4 class="name">Name</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, numquam?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quisquam, similique ducimus veniam commodi deserunt.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://images.pexels.com/photos/1808398/pexels-photo-1808398.jpeg?cs=srgb&dl=pexels-atef-khaled-1808398.jpg&fm=jpg" alt="">
+                    <img class="face" src="https://images.pexels.com/photos/1808398/pexels-photo-1808398.jpeg?cs=srgb&dl=pexels-atef-khaled-1808398.jpg&fm=jpg" alt="">
                     <div class="container-text-card">
-                        <h4>Name</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis at ea ab cum dolores beatae!</p>
+                        <h4 class="name">Name</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt itaque dolor ducimus ea corporis placeat, cumque debitis quaerat porro praesentium ullam recusandae perspiciatis obcaecati ex!</p>
                     </div>
                 </div>
             </div>
@@ -131,24 +128,24 @@
                 <h2 class="title">Our Services</h2>
                 <div class="container-service">
                     <div class="individual-service">
-                        <img src="/img/undraw_tasting_re_fv9d.svg" alt="">
-                        <h3>name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum.</p>
+                        <img src="/img/undraw_tasting_re_fv9d.svg" alt="" height="300" width="300">
+                        <h3 class="title-service">Name</h3>
+                        <p>Vitae sequi alias obcaecati autem! lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, earum.</p>
                     </div>
                     <div class="individual-service">
-                        <img src="/img/undraw_building_blocks_re_rwls.svg" alt="">
-                        <h3>name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quidem vitae sequi alias obcaecati autem totam dolores quae soluta asperiores!</p>
+                        <img src="/img/undraw_building_blocks_re_rwls.svg" alt="" height="300" width="300">
+                        <h3 class="title-service">Name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quidem vitae sequi alias obcaecati autem!</p>
                     </div>
                     <div class="individual-service">
-                        <img src="/img/undraw_product_teardown_re_m1pc.svg" alt="">
-                        <h3>name</h3>
+                        <img src="/img/undraw_product_teardown_re_m1pc.svg" alt="" height="300" width="300">
+                        <h3 class="title-service">Name</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ea veniam, laborum unde molestias ratione!</p>
                     </div>
                 </div>
             </div>
         </section>
-        <footer>
+        <footer class="footer">
             <div class="container-footer">
                 <div class="content-footer">
                     <h4>Phone</h4>
@@ -156,14 +153,14 @@
                 </div>
                 <div class="content-footer">
                     <h4>Email</h4>
-                    <p>8765784643</p>
+                    <p>info@ninjaweb.com</p>
                 </div>
                 <div class="content-footer">
                     <h4>Location</h4>
-                    <p>8765784643</p>
+                    <p>Cruce las Margaritas 23 - 57</p>
                 </div>
             </div>
-            <h2 class="titel final">&copy; Esteban Zapata </h2>
+            <h2 class="final-title">&copy; Esteban Zapata </h2>
         </footer>
     </main>    
 </body>

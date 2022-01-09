@@ -1,0 +1,41 @@
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: #4d0686;
+    display: flex;
+    justify-content: space-evenly;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cards .card .face{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .container-text-card{
+    width: 60%;
+    color: white;
+    text-align: justify;
+}
+
+.cards .card > .container-text-card p{
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.name{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
