@@ -4,7 +4,7 @@
 }
 
 .cards .card{
-    background: #4d0686;
+    background: linear-gradient(to right, #a8c0ff, #3f2b96);
     display: flex;
     justify-content: space-evenly;
     width: 46%;
