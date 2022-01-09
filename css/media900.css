@@ -1,0 +1,78 @@
+@media screen and (max-width:900px){
+    
+    /* header */
+
+    .header{
+        background-position: center;
+    }
+
+    .header-text .principal-title{
+        text-align: center;
+    }
+
+    /* about_us */
+
+    .container-about-us{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-about-us{
+        width: 90%;
+        margin-bottom: 100px;
+    }
+
+    .about-us .container-text{
+        width: 90%;
+    }
+
+    /* gallery */
+
+    .imagen-port{
+        width: 44%;
+    }
+
+    /* customers */
+
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card{        
+        width: 90%;        
+    }
+
+    .cards .card:first-child{        
+        margin-bottom: 30px;       
+    }
+
+    /* our_service */
+
+    .container-service{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .individual-service{
+        width: 90%;
+    }
+
+    .individual-service p{
+        margin-bottom: 30px;
+    }
+
+    /* footer */
+
+    .container-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-footer:nth-child(1), .content-footer:nth-child(2){
+        margin-bottom: 25px;   
+    }
+}
