@@ -1,0 +1,101 @@
+@media screen and (max-width:500px){
+     /* header */
+
+    .header{
+        height: 550px;
+    }
+
+    .header-text .principal-title{
+        font-size: 35px;
+    }
+
+    .header-text .principal-title2{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .navbar{
+        text-align: center;
+        padding: 30px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header .header-text{    
+        height: 150px;        
+    }
+
+    .navbar > .link-items{
+        margin: 5px;
+        color: white;
+        border-bottom: 1px solid white;
+        margin-bottom: 7.5px;
+        padding-bottom: 10px;
+    }
+
+    /* about_us */
+
+    .img-about-us{        
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .about-us .container-text{
+        width: 95%;
+    }
+
+    main .about-us{
+        padding: 30px 0 60px 0;
+    }
+
+    /* gallery */
+
+    .imagen-port{
+        width: 95%;
+    }
+
+    /* customers */
+
+    .cards .card{        
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .cards .card .face{
+        margin-bottom: 15px;
+    }
+
+    .cards .card > .container-text-card{
+        text-align: left;
+    }
+
+    /* our_service */
+
+    .container-service{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .individual-service{
+        width: 90%;
+    }
+
+    .individual-service p{
+        margin-bottom: 30px;
+    }
+
+    /* footer */
+
+    .container-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-footer:nth-child(1), .content-footer:nth-child(2){
+        margin-bottom: 25px;   
+    }
+}
